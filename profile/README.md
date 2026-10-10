@@ -4,7 +4,7 @@ kuberoot builds Kubernetes distributions the way Buildroot builds embedded Linux
 
 | Repository | |
 |---|---|
-| [kuberoot](https://github.com/kuberoot-dev/kuberoot) | the toolkit, and the distributions built with it: edge, router, hypervisor, ai, rt, iot, observability |
+| [kuberoot](https://github.com/kuberoot-dev/kuberoot) | the toolkit, and the distributions built with it: edge, router, hypervisor, ai, rt, iot, observability, workstation |
 | [kubepkg](https://github.com/kuberoot-dev/kubepkg) | a package manager for any Kubernetes cluster, made for those who build platforms and distributions |
 | [kubepkg-recipes](https://github.com/kuberoot-dev/kubepkg-recipes) | the package archive: recipes, a signed index, and each distribution's meta package |
 
