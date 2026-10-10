@@ -1,18 +1,16 @@
 # Contributing
 
-Thank you for wanting to help. We welcome every kind of contribution: code, package recipes, documentation, reviews, bug reports, ideas, and above all testing on hardware we do not have.
-
-For anything beyond a small fix, please open an issue first. Agreeing on the design before the work begins saves time on both sides. New distributions and new packages are especially welcome; tell us which problem they solve.
+Thank you for wanting to help. Every kind of contribution is welcome, and testing on hardware we do not have most of all. For anything beyond a small fix, open an issue first, so the design is agreed before the work begins; new distributions and packages are especially welcome.
 
 ## Pull requests
 
-Fork the repository, work on a branch and open a pull request against `main`. Keep each pull request to one logical change, add or update tests for what you touch, and make sure continuous integration passes. A maintainer reviews and approves every pull request before it is merged.
+Open a pull request against `main` from a branch of your fork, one logical change at a time, with tests for what you touch. It is merged once continuous integration passes and a maintainer approves it.
 
 ## Commits
 
 Commit messages take the form `type(scope): description` — `feat`, `fix`, `docs`, `refactor`, `test`, `chore`, `ci`, `perf` or `build` — and explain why a change is made; the diff already shows what. Sign off every commit with `git commit -s` to certify the [Developer Certificate of Origin](https://developercertificate.org/).
 
-Contributions written with the help of AI tools are welcome on the same terms as any other: you are responsible for the change, you understand it and you can maintain it. Mark such commits with an `Assisted-by:` trailer.
+Work written with AI tools is welcome on the same terms as any other, provided you understand and stand behind it; mark such commits with an `Assisted-by:` trailer.
 
 ## Language and license
 
