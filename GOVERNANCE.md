@@ -1,47 +1,31 @@
 # Governance
 
-This document describes how the kuberoot project — the repositories of the [kuberoot-dev](https://github.com/kuberoot-dev) organization — is run today, and how that is meant to change as people join.
+kuberoot began as one person's attempt to find out whether Kubernetes could become an operating system rather than something installed on top of one. This page describes how the project is run today, and how we intend that to change as others join.
 
-## Today: one maintainer
+## Where we are
 
-kuberoot was started by Timur Tukaev ([@tym83](https://github.com/tym83)) and, for now, has a single maintainer, who manages the project and makes its decisions: what is in scope, which changes are merged, when releases are cut, and who else becomes a maintainer.
+For now, the project has a single maintainer: its founder, Timur Tukaev ([@tym83](https://github.com/tym83)). He decides what belongs in the project, which changes are merged, when releases ship, and who else becomes a maintainer.
 
-This is a statement of where the project is, not of where it should stay. Sharing responsibility with the people who build the project is the goal; it happens as contributors show sustained work, as described below.
+That describes a starting point, not a destination. The aim is to share the project with the people who build it, and the path there is set out below.
 
 ## How decisions are made
 
-- Decisions are made in the open, on GitHub: in issues, pull requests and discussions. A decision that is not written down there has not been made.
-- Anyone may propose a change, a new distribution, a package or a change of direction by opening an issue or a pull request.
-- Pull requests from contributors are merged after a maintainer approves them and continuous integration passes.
-- When the maintainer declines a proposal, the reason is given in the issue or pull request.
+Every decision is made in the open, in an issue, a pull request or a discussion on GitHub; if it is not written down there, it has not been decided. Anyone may propose a change, a new distribution or a new direction. A contributor's pull request is merged once a maintainer approves it and continuous integration passes, and when a proposal is declined, the reason is given where it was made.
 
 ## Roles
 
-**Contributors** are everyone who opens issues, reviews, writes code, documentation or package recipes, tests on hardware, or helps others. No permission is needed to become one.
+**Contributors** are everyone who takes part: by writing code, documentation or package recipes, by reviewing, by testing on hardware we do not have, or by helping others. No permission is needed.
 
-**Reviewers** are contributors trusted to review pull requests in an area (a repository, a distribution, a set of package recipes). Their review is weighed in the decision to merge.
+**Reviewers** are contributors whose judgement in an area — a repository, a distribution, a set of packages — the maintainers have come to rely on.
 
-**Maintainers** may merge pull requests and cut releases in the repositories they maintain, and take part in decisions about the project. Maintainers are listed in [MAINTAINERS.md](MAINTAINERS.md).
+**Maintainers** merge changes, cut releases and share in the project's decisions. They are listed in [MAINTAINERS.md](MAINTAINERS.md).
 
-## Becoming a reviewer or a maintainer
+## Sharing responsibility
 
-Responsibility follows sustained contribution. There is no fixed formula, but what the maintainers look for is:
+Responsibility follows sustained contribution. We look for work carried on over months rather than a single burst, changes of substance merged in an area, careful reviews of other people's work there, and conduct in keeping with the [Code of Conduct](CODE_OF_CONDUCT.md). Anyone may ask to become a reviewer or a maintainer, or be nominated by a maintainer; the maintainers decide, and the decision is recorded in MAINTAINERS.md.
 
-- contributions over a period of several months, not a single burst;
-- non-trivial changes merged in the area, and reviews of other people's changes there;
-- an understanding of the project's design and its conventions, and care for the users of the area;
-- conduct in line with the [Code of Conduct](CODE_OF_CONDUCT.md).
-
-A contributor may ask to become a reviewer or a maintainer, or be nominated by an existing maintainer. Becoming a maintainer is decided by the maintainers and recorded in MAINTAINERS.md through a pull request.
-
-## As the project grows
-
-Once there are three or more maintainers, decisions move from the founder to the maintainers as a group: by lazy consensus in the open, and, where consensus is not reached, by a simple majority vote of the maintainers. This document will then be revised to describe that process in detail.
+Once the project has three maintainers or more, its decisions pass from the founder to the maintainers together: by lazy consensus in the open, and by a simple majority vote where consensus cannot be reached. This page will be revised then.
 
 ## Stepping down
 
-A maintainer may step down at any time by opening a pull request against MAINTAINERS.md. A maintainer who has been inactive for a long time may be moved to emeritus status by the other maintainers, with thanks.
-
-## Changes to this document
-
-Changes to this governance are made by pull request and decided by the maintainers.
+A maintainer may step down at any time. One who has been away for a long while may be made emeritus by the others, with our thanks. Changes to this page are made by pull request and decided by the maintainers.
